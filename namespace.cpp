@@ -1,3 +1,6 @@
+//first class
+//tut on namespace, nested namespace, class in a namespace, fun in namespace,scopes of namespace
+
 #include <iostream>
 using namespace std;
 
