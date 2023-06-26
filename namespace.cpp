@@ -1,5 +1,5 @@
-//first class
-//tut on namespace, nested namespace, class in a namespace, fun in namespace,scopes of namespace
+// first class
+// tut on namespace, nested namespace, class in a namespace, fun in namespace,scopes of namespace
 
 #include <iostream>
 using namespace std;
@@ -66,19 +66,17 @@ namespace outer
   }
 } // namespace outer
 namespace inner
-{void display(){
-  cout<<"hey man"<<endl;
-}
-  
-} // namespace inner
+{
+  void display()
+  {
+    cout << "hey man" << endl;
+  }
 
+} // namespace inner
 
 int main()
 {
   // outer::print();
   // outer::inner::display();
-inner::display();
-
+  inner::display();
 }
-
-
