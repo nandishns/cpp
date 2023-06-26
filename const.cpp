@@ -14,7 +14,8 @@ int main() {
     const int* p = &a;
 
     print(message);
-    print(to_string(a)); // Convert 'a' to string before passing it to the print function
+    print(to_string(a)); 
 print(p);
     return 0;
 }
+
