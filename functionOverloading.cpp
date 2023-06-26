@@ -1,5 +1,5 @@
 //static polymorphism - decision made during compile time
-
+//fun overloading is a static polymorphism
 // #include<iostream>
 // using namespace std;
 // template <typename T>
@@ -36,7 +36,10 @@ double sum(double a, double b){
 
 int main() {
  print(sum(1,2));
+
  print(sum(1.4,1.2222));
 //  print(sum("s","d"));    -> no instance of overloaded function "sum" matches the argument list
 return 0;
 }
+
+
